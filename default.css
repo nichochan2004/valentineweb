@@ -1,0 +1,58 @@
+@font-face {
+    font-family:kinkie;
+    src: url(kinkie/KINKIE__.TTF);
+}
+
+body{
+    font-family: kinkie,sans-serif;
+    background-image: url(background.jpg);
+    background-size: auto;
+    background-repeat:no-repeat;
+}
+
+h1{
+    font-size:64px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.yes{
+    background-color: rgb(139, 255, 139);
+    color:black;
+    float:left;
+    text-decoration: none;
+    font-size:48px;
+    padding:35px 70px ;
+    border-radius: 25px;
+}
+
+.yes:hover{
+    background-color: rgb(102, 255, 102);
+}
+
+.no{
+    background-color: rgb(255, 89, 89);
+    color:black;
+    float:right;
+    text-decoration: none;
+    font-size:48px;
+    padding:35px 70px ;
+    border-radius: 25px;
+}
+
+.container{
+    width:40%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:50px;
+    display:block;
+    position:static;
+    cursor:not-allowed;
+}
+
+.no:hover{
+    display:none;
+}
